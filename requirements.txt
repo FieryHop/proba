@@ -1,0 +1,4 @@
+Python
+fastapi
+uvicorn
+pydantic
