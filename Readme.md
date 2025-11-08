@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 Из корня проекта выполните:
 
-uvicorn main:app --reload
+uvicorn proba:app --reload
 
 После запуска сервис будет доступен по адресу http://127.0.0.1:8000
 
@@ -59,4 +59,5 @@ curl http://127.0.0.1:8000/incidents?status=open
 Пример:
 
 curl -X PUT http://127.0.0.1:8000/incidents/<id> -H "Content-Type: application/json" -d '{"new_status":"resolved"}'
+
 
